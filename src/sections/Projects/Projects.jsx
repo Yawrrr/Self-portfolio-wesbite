@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
-import SixG from "../../assets/SixG Cafe.png"
-import orderMe from "../../assets/Order Me.png"
-import TVPSS from "../../assets/TVPSS.png"
-import ChaTEA from "../../assets/ChaTEAA.png"
+import SixG from "../../assets/SixG Cafe.png";
+import orderMe from "../../assets/Order Me.png";
+import TVPSS from "../../assets/TVPSS.png";
+import ChaTEA from "../../assets/ChaTEAA.png";
 
 function Projects() {
   return (
@@ -20,7 +20,13 @@ function Projects() {
         <ProjectCard
           src={TVPSS}
           title="TVPSSHub"
-          description={"Regional Educational\nResource Management Platform"}
+          description={
+            <>
+              Regional Educational
+              <br />
+              Resource Management Platform
+            </>
+          }
           href="https://github.com/JingZheee/TVPSSHub"
         />
         <ProjectCard
