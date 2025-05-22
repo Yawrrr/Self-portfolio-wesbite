@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
 import ProjectCard from "../../common/ProjectCard";
-import freshBurger from "../../assets/fresh-burger.png"
-import hipsster from "../../assets/hipsster.png"
-import fitLift from "../../assets/fitlift.png"
+import SixG from "../../assets/SixG Cafe.png"
+import orderMe from "../../assets/Order Me.png"
+import TVPSS from "../../assets/TVPSS.png"
+import ChaTEA from "../../assets/ChaTEAA.png"
 
 function Projects() {
   return (
@@ -12,28 +12,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          title="Viberr"
-          description="Streaming App"
-          href="https://github.com/Ade-mir/company-landing-page-2"
+          src={orderMe}
+          title="Order Me"
+          description="Campus Food Delivery Application"
+          href="https://github.com/Yawrrr/Order-Me"
         />
         <ProjectCard
-          src={freshBurger}
-          title="Fresh Burger"
-          description="Hamburger Restaurant"
-          href="https://github.com/Ade-mir/company-landing-page-2"
+          src={TVPSS}
+          title="TVPSSHub"
+          description={"Regional Educational\nResource Management Platform"}
+          href="https://github.com/JingZheee/TVPSSHub"
         />
         <ProjectCard
-          src={hipsster}
-          title="Hipsster"
-          description="Glasses Shop"
-          href="https://github.com/Ade-mir/company-landing-page-2"
+          src={SixG}
+          title="SixG Cafe"
+          description="Cafe Ordering System"
+          href="https://github.com/Yawrrr/Food-Ordering-System"
         />
         <ProjectCard
-          src={fitLift}
-          title="FitLeft"
-          description="Fitness App"
-          href="https://github.com/Ade-mir/company-landing-page-2"
+          src={ChaTEA}
+          title="ChaTEAA"
+          description="Order Summary Tracker"
+          href="https://github.com/Yawrrr/ChaTEAA"
         />
       </div>
     </section>
